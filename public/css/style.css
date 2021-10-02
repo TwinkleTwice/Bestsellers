@@ -855,6 +855,7 @@ section#partners .container .partners-slider {
   position: relative;
   display: flex;
   justify-content: center;
+  margin-bottom: 8.6rem;
 }
 section#partners .container .partners-slider .partners-item .text {
   font-size: 1.4rem;
@@ -869,8 +870,10 @@ section#partners .container .partners-slider .slick-list {
 section#partners .container .partners-slider .slick-track {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 section#partners .container .partners-slider .slick-slide {
+  width: 17rem;
   margin: 0 auto;
   position: relative;
 }
