@@ -855,7 +855,6 @@ section#partners .container .partners-slider {
   position: relative;
   display: flex;
   justify-content: center;
-  margin-bottom: 8.6rem;
 }
 section#partners .container .partners-slider .partners-item .text {
   font-size: 1.4rem;
@@ -869,11 +868,11 @@ section#partners .container .partners-slider .slick-list {
 }
 section#partners .container .partners-slider .slick-track {
   display: flex;
-  height: auto;
   align-items: center;
 }
 section#partners .container .partners-slider .slick-slide {
   margin: 0 auto;
+  position: relative;
 }
 section#partners .container .partners-slider .slick-arrow {
   position: absolute;

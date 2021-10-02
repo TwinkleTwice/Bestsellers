@@ -4,7 +4,7 @@ section#partners {
             position: relative;
             display: flex;
             justify-content: center;
-            margin-bottom: 8.6rem;
+            //margin-bottom: 8.6rem;
 
             .partners-item {
                 .text {
@@ -16,19 +16,18 @@ section#partners {
                     font-size: 1.3rem;
                 }
             }
-
             .slick-list {
                 overflow: hidden;
             }
-
             .slick-track {
                 display: flex;
-                height: auto;
+                //height: auto;
                 align-items: center;
             }
 
             .slick-slide {
                 margin: 0 auto;
+                position: relative;
             }
 
             .slick-arrow {
