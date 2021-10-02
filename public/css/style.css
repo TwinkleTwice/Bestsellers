@@ -765,6 +765,7 @@ section#materials .container .wrap .materials-slider .materials-item .text {
   padding: 1rem 0;
 }
 section#materials .container .wrap .materials-slider .materials-item .name {
+  display: block;
   font-size: 1.3rem;
 }
 section#materials .container .wrap .materials-slider .materials-item .raiting {
@@ -817,14 +818,12 @@ section#new-products .container .wrap .new-products-slider .new-products-item {
 }
 section#new-products .container .wrap .new-products-slider .new-products-item .text {
   font-size: 1.4rem;
+  line-height: 3.64rem;
+  height: 3.64rem;
   padding: 1rem 0;
 }
 section#new-products .container .wrap .new-products-slider .new-products-item .name {
   font-size: 1.3rem;
-}
-section#new-products .container .wrap .new-products-slider .new-products-item .raiting {
-  position: absolute;
-  bottom: 0;
 }
 section#new-products .container .wrap .new-products-slider .slick-list {
   overflow: hidden;

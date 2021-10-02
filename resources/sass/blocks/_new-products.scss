@@ -15,14 +15,17 @@ section#new-products {
                     height: 33rem;
                     .text {
                         font-size: 1.4rem;
+                        line-height: 3.64rem;
+                        height: 3.64rem;
+
                         padding: 1rem 0;
                     }
                     .name {
                         font-size: 1.3rem;
                     }
                     .raiting {
-                        position: absolute;
-                        bottom: 0;
+                        //position: absolute;
+                        //bottom: 0;
                     }
                 }
                 .slick-list {
