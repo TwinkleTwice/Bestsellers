@@ -304,7 +304,7 @@
     <div class="container">
         <div class="wrap">
             <h1 class="title">Связаться с нами</h1>
-            <a href="#"><img src="/i/icons/contact-arrow-i.png" alt=""></a>
+            <a href="#"><img src="{{ asset('i/icons/contact-arrow-i.png') }}" alt=""></a>
         </div>
     </div>
 </section>

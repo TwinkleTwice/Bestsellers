@@ -16,14 +16,17 @@ section#materials {
                     .text {
                         font-size: 1.4rem;
                         padding: 1rem 0;
+
+                        line-height: 3.64rem;
+                        height: 3.64rem;
                     }
                     .name {
                         display: block;
                         font-size: 1.3rem;
                     }
                     .raiting {
-                        position: absolute;
-                        bottom: 0;
+                        //position: absolute;
+                        //bottom: 0;
                     }
                 }
                 .slick-list {

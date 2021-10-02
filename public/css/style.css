@@ -763,14 +763,12 @@ section#materials .container .wrap .materials-slider .materials-item {
 section#materials .container .wrap .materials-slider .materials-item .text {
   font-size: 1.4rem;
   padding: 1rem 0;
+  line-height: 3.64rem;
+  height: 3.64rem;
 }
 section#materials .container .wrap .materials-slider .materials-item .name {
   display: block;
   font-size: 1.3rem;
-}
-section#materials .container .wrap .materials-slider .materials-item .raiting {
-  position: absolute;
-  bottom: 0;
 }
 section#materials .container .wrap .materials-slider .slick-list {
   overflow: hidden;
