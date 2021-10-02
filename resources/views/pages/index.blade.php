@@ -274,28 +274,28 @@
     <div class="container">
         <div class="partners-slider">
             <div class="partners-item">
-                <img src="{{ asset('i/young-guard.png') }}" alt="">
+                <img src="{{ asset('/i/young-guard.png') }}" alt="">
             </div>
             <div class="partners-item">
-                <img src="{{ asset('i/publishing-house.png') }}" alt="">
+                <img src="{{ asset('/i/publishing-house.png') }}" alt="">
             </div>
             <div class="partners-item">
-                <img src="{{ asset('i/exmo.png') }}" alt="">
+                <img src="{{ asset('/i/exmo.png') }}" alt="">
             </div>
             <div class="partners-item">
-                <img src="{{ asset('i/bombora.png') }}" alt="">
+                <img src="{{ asset('/i/bombora.png') }}" alt="">
             </div>
             <div class="partners-item">
-                <img src="{{ asset('i/alpina.png') }}" alt="">
+                <img src="{{ asset('/i/alpina.png') }}" alt="">
             </div>
             <div class="partners-item">
-                <img src="{{ asset('i/young-guard.png') }}" alt="">
+                <img src="{{ asset('/i/young-guard.png') }}" alt="">
             </div>
             <div class="partners-item">
-                <img src="{{ asset('i/publishing-house.png') }}" alt="">
+                <img src="{{ asset('/i/publishing-house.png') }}" alt="">
             </div>
             <div class="partners-item">
-                <img src="{{ asset('i/exmo.png') }}" alt="">
+                <img src="{{ asset('/i/exmo.png') }}" alt="">
             </div>
         </div>
     </div>
