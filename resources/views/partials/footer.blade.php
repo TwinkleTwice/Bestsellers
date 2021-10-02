@@ -35,9 +35,9 @@
                     <div class="social-medias">
                         <span class="title">Следите за новостями:</span>
                         <div class="socials-nav">
-                            <a href="https://www.instagram.com/" target="_blank"><img src="{{ assert('i/icons/instagram-i.png') }}" alt=""></a>
-                            <a href="https://www.facebook.com/" target="_blank"><img src="{{ assert('i/icons/facebook-i.png') }}" alt=""></a>
-                            <a href="https://web.telegram.org/" target="_blank"><img src="{{ assert('i/icons/telegram-i.png') }}" alt=""></a>
+                            <a href="https://www.instagram.com/" target="_blank"><img src="{{ asset('i/icons/instagram-i.png') }}" alt=""></a>
+                            <a href="https://www.facebook.com/" target="_blank"><img src="{{ asset('i/icons/facebook-i.png') }}" alt=""></a>
+                            <a href="https://web.telegram.org/" target="_blank"><img src="{{ asset('i/icons/telegram-i.png') }}" alt=""></a>
                             <a href="https://vk.com/" target="_blank"><img src="{{ asset('i/icons/vk-i.png') }}" alt=""></a>
                         </div>
                     </div>
