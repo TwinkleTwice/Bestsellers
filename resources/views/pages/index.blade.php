@@ -15,11 +15,11 @@
             <div class="buttons">
                 <div class="store-buttons">
                     <a href="https://play.google.com/store?hl=ru&gl=US" target="_blank" class="store-btn">
-                        <img src="/i/icons/google-play-i.png" alt="">
+                        <img src="{{ asset('i/icons/google-play-i.png') }}" alt="">
                         <span><span>Скачать из</span>Google Play</span>
                     </a>
                     <a href="https://www.apple.com/ru/app-store/" target="_blank" class="store-btn">
-                        <img src="/i/icons/app-store-i.png" alt="">
+                        <img src="{{ asset('i/icons/app-store-i.png') }}" alt="">
                         <span><span>Скачать из</span>App Store</span>
                     </a>
                 </div>
@@ -46,7 +46,7 @@
                     <p class="text">Книг</p>
                 </div>
             </div>
-            <img src="/i/phone.png" alt="" class="phone-img">
+            <img src="{{ asset('i/phone.png') }}" alt="" class="phone-img">
         </div>
     </div>
 </section>
@@ -89,7 +89,7 @@
             <h1 class="title">Интересные материалы</h1>
             <div class="materials-slider">
                 <div class="materials-item">
-                    <img src="/i/book-sapiens.png" alt="">
+                    <img src="{{ asset('i/book-sapiens.png') }}" alt="">
                     <p class="text">Sapienns Краткая история человечества</p>
                     <span class="name">Юваль Ной Харари</span>
                     <div class="raiting">
@@ -101,7 +101,7 @@
                     </div>
                 </div>
                 <div class="materials-item">
-                    <img src="/i/book-rich-dad.png" alt="">
+                    <img src="{{ asset('i/book-rich-dad.png') }}" alt="">
                     <p class="text">Богатый папа, бедный папа</p>
                     <span class="name">Роберт Кийосаки</span>
                     <div class="raiting">
@@ -113,7 +113,7 @@
                     </div>
                 </div>
                 <div class="materials-item">
-                    <img src="/i/book-i-want.png" alt="">
+                    <img src="{{ asset('i/book-i-want.png') }}" alt="">
                     <p class="text">Хочу и буду</p>
                     <span class="name">Михаил Лабковский</span>
                     <div class="raiting">
@@ -125,7 +125,7 @@
                     </div>
                 </div>
                 <div class="materials-item">
-                    <img src="/i/book-sapiens.png" alt="">
+                    <img src="{{ asset('i/book-sapiens.png') }}" alt="">
                     <p class="text">Sapienns Краткая история человечества</p>
                     <span class="name">Юваль Ной Харари</span>
                     <div class="raiting">
@@ -137,7 +137,7 @@
                     </div>
                 </div>
                 <div class="materials-item">
-                    <img src="/i/book-rich-dad.png" alt="">
+                    <img src="{{ asset('i/book-rich-dad.png') }}" alt="">
                     <p class="text">Богатый папа, бедный папа</p>
                     <span class="name">Роберт Кийосаки</span>
                     <div class="raiting">
@@ -174,21 +174,21 @@
             <h1 class="title">Несколько фактов о нас</h1>
             <div class="facts-list">
                 <div href="#" class="facts-item">
-                    <img src="/i/icons/book-i.png" alt="">
+                    <img src="{{ asset('i/icons/book-i.png') }}" alt="">
                     <span class="name">Библиотека</span>
                     <p class="text">
                         Наша библиотека начитывает более 1000 <br> бесплатных книг!
                     </p>
                 </div>
                 <div href="#" class="facts-item">
-                    <img src="/i/icons/author-i.png" alt="">
+                    <img src="{{ asset('i/icons/author-i.png') }}" alt="">
                     <span class="name">Компетентные авторы</span>
                     <p class="text">
                         У нас публикуется более 100 современных <br> авторов в жанре нон-фикшн!
                     </p>
                 </div>
                 <div href="#" class="facts-item">
-                    <img src="/i/icons/social-i.png" alt="">
+                    <img src="{{ asset('i/icons/social-i.png') }}" alt="">
                     <span class="name">Социальная сеть</span>
                     <p class="text">
                         Мы единственная на сегодняшний день <br>
@@ -207,7 +207,7 @@
             <h1 class="title">Новинки</h1>
             <div class="new-products-slider">
                 <div class="new-products-item">
-                    <img src="/i/book-sapiens.png" alt="">
+                    <img src="{{ asset('i/book-sapiens.png') }}" alt="">
                     <p class="text">Sapienns Краткая история человечества</p>
                     <span class="name">Юваль Ной Харари</span>
                     <div class="raiting">
@@ -219,7 +219,7 @@
                     </div>
                 </div>
                 <div class="new-products-item">
-                    <img src="/i/book-rich-dad.png" alt="">
+                    <img src="{{ asset('i/book-rich-dad.png') }}" alt="">
                     <p class="text">Богатый папа, бедный папа</p>
                     <span class="name">Роберт Кийосаки</span>
                     <div class="raiting">
@@ -231,7 +231,7 @@
                     </div>
                 </div>
                 <div class="new-products-item">
-                    <img src="/i/book-i-want.png" alt="">
+                    <img src="{{ asset('i/book-i-want.png') }}" alt="">
                     <p class="text">Хочу и буду</p>
                     <span class="name">Михаил Лабковский</span>
                     <div class="raiting">
@@ -243,7 +243,7 @@
                     </div>
                 </div>
                 <div class="new-products-item">
-                    <img src="/i/book-sapiens.png" alt="">
+                    <img src="{{ asset('i/book-sapiens.png') }}" alt="">
                     <p class="text">Sapienns Краткая история человечества</p>
                     <span class="name">Юваль Ной Харари</span>
                     <div class="raiting">
@@ -255,7 +255,7 @@
                     </div>
                 </div>
                 <div class="new-products-item">
-                    <img src="/i/book-rich-dad.png" alt="">
+                    <img src="{{ asset('i/book-rich-dad.png') }}" alt="">
                     <p class="text">Богатый папа, бедный папа</p>
                     <span class="name">Роберт Кийосаки</span>
                     <div class="raiting">
@@ -274,28 +274,28 @@
     <div class="container">
         <div class="partners-slider">
             <div class="partners-item">
-                <img src="/i/young-guard.png" alt="">
+                <img src="{{ asset('i/young-guard.png') }}" alt="">
             </div>
             <div class="partners-item">
-                <img src="/i/publishing-house.png" alt="">
+                <img src="{{ asset('i/publishing-house.png') }}" alt="">
             </div>
             <div class="partners-item">
-                <img src="/i/exmo.png" alt="">
+                <img src="{{ asset('i/exmo.png') }}" alt="">
             </div>
             <div class="partners-item">
-                <img src="/i/bombora.png" alt="">
+                <img src="{{ asset('i/bombora.png') }}" alt="">
             </div>
             <div class="partners-item">
-                <img src="/i/alpina.png" alt="">
+                <img src="{{ asset('i/alpina.png') }}" alt="">
             </div>
             <div class="partners-item">
-                <img src="/i/young-guard.png" alt="">
+                <img src="{{ asset('i/young-guard.png') }}" alt="">
             </div>
             <div class="partners-item">
-                <img src="/i/publishing-house.png" alt="">
+                <img src="{{ asset('i/publishing-house.png') }}" alt="">
             </div>
             <div class="partners-item">
-                <img src="/i/exmo.png" alt="">
+                <img src="{{ asset('i/exmo.png') }}" alt="">
             </div>
         </div>
     </div>

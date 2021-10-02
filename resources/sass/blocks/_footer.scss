@@ -109,9 +109,34 @@ footer.footer {
                    }
                }
                .payment {
+                   width: 21rem;
                    .title {
                        @include ff(psb);
                        font-size: 1.6rem;
+                   }
+                   .payment-list {
+                       display: flex;
+                       flex-wrap: wrap;
+                       justify-content: flex-start;
+                       align-items: center;
+                       img {
+                           &.visa{
+                               margin: 2.3rem 0 1.2rem;
+                               width: 8rem;
+                           }
+                           &.mastercard{
+                               margin: 2.3rem 0 1.2rem;
+                               margin-left: 3.6rem;
+                               width: 5rem;
+                           }
+                           &.beeline{
+                               width: 10rem;
+                           }
+                           &.kcell{
+                               margin-left: 2rem;
+                               width: 8.5rem;
+                           }
+                       }
                    }
                }
            }

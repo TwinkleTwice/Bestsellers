@@ -1,7 +1,7 @@
 <header class="header" >
     <div class="container">
         <div class="nav">
-            <img src="/i/logo.png" class="logo" alt="">
+            <img src="{{ asset('i/logo.png') }}" class="logo" alt="">
             <a href="#">Каталог</a>
             <a href="#">Мои материалы</a>
             <a href="#">Блог</a>

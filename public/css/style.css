@@ -405,9 +405,34 @@ footer.footer .container .wrap .content .socials .social-medias .socials-nav {
   padding-top: 1rem;
   justify-content: space-around;
 }
+footer.footer .container .wrap .content .payment {
+  width: 21rem;
+}
 footer.footer .container .wrap .content .payment .title {
   font-family: "ProximaNova-Semibold";
   font-size: 1.6rem;
+}
+footer.footer .container .wrap .content .payment .payment-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+footer.footer .container .wrap .content .payment .payment-list img.visa {
+  margin: 2.3rem 0 1.2rem;
+  width: 8rem;
+}
+footer.footer .container .wrap .content .payment .payment-list img.mastercard {
+  margin: 2.3rem 0 1.2rem;
+  margin-left: 3.6rem;
+  width: 5rem;
+}
+footer.footer .container .wrap .content .payment .payment-list img.beeline {
+  width: 10rem;
+}
+footer.footer .container .wrap .content .payment .payment-list img.kcell {
+  margin-left: 2rem;
+  width: 8.5rem;
 }
 
 section#hero {
