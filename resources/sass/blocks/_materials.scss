@@ -1,0 +1,58 @@
+section#materials {
+    .container {
+        .wrap {
+            margin: 13rem 0;
+            .title {
+                @include ff(pl);
+                font-size: 4rem;
+                margin-bottom: 5rem;
+            }
+            .materials-slider {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                .materials-item {
+                    height: 33rem;
+                    .text {
+                        font-size: 1.4rem;
+                        padding: 1rem 0;
+                    }
+                    .name {
+                        font-size: 1.3rem;
+                    }
+                    .raiting {
+                        position: absolute;
+                        bottom: 0;
+                    }
+                }
+                .slick-list {
+                    overflow: hidden;
+                }
+                .slick-track {
+                    display: flex;
+                }
+                .slick-slide {
+                    margin: 0 auto;
+                    position: relative;
+                }
+                .slick-arrow {
+                    position: absolute;
+                    top: 50%;
+                    z-index: 5;
+                    font-size: 0;
+                    border: none;
+                    width: 1.7rem;
+                    height: 8rem;
+                }
+                .slick-prev {
+                    left: 0;
+                    background: url("/i/icons/arrow-prev.png") 0 0 no-repeat;
+                }
+                .slick-next {
+                    right: 0;
+                    background: url("/i/icons/arrow-next.png") 0 0 no-repeat;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+html{
+    font-size: $font-size;
+    line-height: 1.3;
+    overflow-x: hidden;
+    @include responsive{
+        font-size: $responsive-font-size;
+    }
+}
+
+body{
+    position: relative;
+
+    //overflow-x: hidden;
+
+    color: $main;
+    background-color: $white;
+
+    @include ff();
+
+    *{
+        box-sizing: border-box;
+        font: inherit;
+        line-height: inherit;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        outline: none;
+        color: inherit;
+        background: none;
+    }
+
+    &.fix{
+        overflow: hidden;
+    }
+}
+
+.checked {
+    color: orange;
+}
+
+.container {
+    width: $container;
+    margin: 0 auto;
+    position: relative;
+    @include responsive{
+        width: $responsive-container;
+    }
+}
+
+
+
+
+

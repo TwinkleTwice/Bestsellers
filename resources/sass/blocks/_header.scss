@@ -1,0 +1,81 @@
+header.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 1rem;
+    z-index: 1;
+
+    @include underline_link($gray, true);
+    .container {
+        .nav {
+            @include ff();
+            @include flex(space-around);
+
+            font-size: 1.6rem;
+            .logo {
+                width: 18rem;
+                height: 8rem;
+            }
+            .btn {
+                padding: 1.5rem 2.2rem;
+                background: $red;
+                color: $white;
+                border: none;
+                border-radius: 25px;
+                transition: .3s;
+                &:hover {
+                    background: $deep_red;
+                }
+            }
+            .search {
+                .search-item {
+                    position: relative;
+                    padding: 1.5rem 2.2rem;
+                    background: $light_gray;
+                    color: $gray;
+                    border: none;
+                    border-radius: 25px;
+                    .search-input {
+                        border: none;
+                    }
+                    .search-submit {
+                        content: '';
+                        position: absolute;
+                        right: 1rem;
+                        display: inline-block;
+                        width: 2rem;
+                        height: 2rem;
+                        cursor: pointer;
+                        background: url('/i/icons/search-i.png') center no-repeat;
+                    }
+                }
+            }
+            .auth {
+                position: relative;
+                display: flex;
+                align-items: center;
+                .login {
+                    border: 1px solid $gray;
+                    border-radius: 50%;
+                    padding: 2rem;
+                    margin-right: 1rem;
+                    cursor: pointer;
+                    width: 2rem;
+                    height: 2rem;
+                    background-image: url('/i/icons/login-i.png');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    transition: .3s;
+                    &:hover {
+                        border: 1px solid $red;
+                        background: $red;
+                        background-image: url('/i/icons/white-login-i.png');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                }
+            }
+        }
+    }
+}

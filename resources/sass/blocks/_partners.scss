@@ -1,0 +1,55 @@
+section#partners {
+    .container {
+        .partners-slider {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 8.6rem;
+
+            .partners-item {
+                .text {
+                    font-size: 1.4rem;
+                    padding: 1rem 0;
+                }
+
+                .name {
+                    font-size: 1.3rem;
+                }
+            }
+
+            .slick-list {
+                overflow: hidden;
+            }
+
+            .slick-track {
+                display: flex;
+                height: auto;
+                align-items: center;
+            }
+
+            .slick-slide {
+                margin: 0 auto;
+            }
+
+            .slick-arrow {
+                position: absolute;
+                top: 50%;
+                z-index: 5;
+                font-size: 0;
+                border: none;
+                width: 1.7rem;
+                height: 8rem;
+            }
+
+            .slick-prev {
+                left: 0;
+                background: url("/i/icons/arrow-prev.png") 0 0 no-repeat;
+            }
+
+            .slick-next {
+                right: 0;
+                background: url("/i/icons/arrow-next.png") 0 0 no-repeat;
+            }
+        }
+    }
+}

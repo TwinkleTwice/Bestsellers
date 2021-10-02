@@ -1,0 +1,130 @@
+section#catalog {
+    .container {
+        .wrap {
+            .title {
+                @include ff(pl);
+                font-size: 4rem;
+                margin-bottom: 6rem;
+            }
+            .catalog-list {
+                display: flex;
+                flex-wrap: wrap;
+                text-align: center;
+                .name {
+                    font-size: 2.6rem;
+                }
+            >*{
+                width: 37rem;
+                height: 31rem;
+                padding-top: 6rem;
+                margin: 0 3rem 3rem 0;
+                border-radius: 28px;
+                cursor: pointer;
+                overflow: hidden;
+            }
+                .catalog-item-1 {
+                    background: #EEEBF2;
+                    position: relative;
+                    .img {
+                        position: absolute;
+                        width: 22rem;
+                        height: 22rem;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -15%);
+                        transition: .5s;
+                        background: url("/i/book.png") center no-repeat;
+                    }
+                    &:hover .img {
+                        transform: translate(-50%, -35%);
+                    }
+                }
+                .catalog-item-2 {
+                    background: #EBF0F2;
+                    position: relative;
+                    .img {
+                        position: absolute;
+                        width: 22rem;
+                        height: 22rem;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -20%);
+                        transition: .5s;
+                        background: url("/i/headphones.png") center no-repeat;
+                    }
+                    &:hover .img {
+                        transform: translate(-50%, -40%);
+                    }
+                }
+                .catalog-item-3 {
+                    background: #F1F2EB;
+                    position: relative;
+                    .img {
+                        position: absolute;
+                        width: 22rem;
+                        height: 22rem;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -20%);
+                        transition: .5s;
+                        background: url("/i/hat.png") center no-repeat;
+                    }
+                    &:hover .img {
+                        transform: translate(-50%, -40%);
+                    }
+                }
+                .catalog-item-4 {
+                    background: #F6F6E1;
+                    position: relative;
+                    .img {
+                        position: absolute;
+                        width: 22rem;
+                        height: 22rem;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -20%);
+                        transition: .5s;
+                        background: url("/i/pen.png") center no-repeat;
+                    }
+                    &:hover .img {
+                        transform: translate(-50%, -40%);
+                    }
+                }
+                .catalog-item-5 {
+                    background: #E5F6EB;
+                    position: relative;
+                    .img {
+                        position: absolute;
+                        width: 22rem;
+                        height: 22rem;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -10%);
+                        transition: .5s;
+                        background: url("/i/microphones.png") center no-repeat;
+                    }
+                    &:hover .img {
+                        transform: translate(-50%, -30%);
+                    }
+                }
+                .catalog-item-6 {
+                    background: #DEF4F4;
+                    position: relative;
+                    .img {
+                        position: absolute;
+                        width: 22rem;
+                        height: 22rem;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -20%);
+                        transition: .5s;
+                        background: url("/i/chair.png") center no-repeat;
+                    }
+                    &:hover .img {
+                        transform: translate(-50%, -40%);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,109 @@
+section#hero {
+    height: 80vh;
+    .container {
+        .wrap {
+            position: relative;
+            margin-top: 13rem;
+            .phone-img {
+                position: absolute;
+                right: 4rem;
+                top: -2rem;
+            }
+            .hero-content {
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                .hero-title {
+                    font-size: 4rem;
+                    color: $black;
+                }
+                .text {
+                    font-size: 1.8rem;
+                    line-height: 2.4rem;
+                    padding: 3rem 0;
+                }
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 37rem;
+                    height: 31rem;
+                    top: -10rem;
+                    left: -17rem;
+                    z-index: -1;
+                    background: url('/i/shape.png') center no-repeat;
+                }
+            }
+            .buttons {
+                width: 35rem;
+                font-size: 1.8rem;
+                .store-buttons {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding-bottom: 4rem;
+                    .store-btn {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 48%;
+                        padding: 0.7rem 0;
+                        border: 1px solid $red;
+                        border-radius: 25px;
+                        img{
+                            width: 2.3rem;
+                            margin-right: 1rem;
+                        }
+                        span{
+                            span{
+                                display: block;
+                                font-size: 1.1rem;
+                            }
+                        }
+                    }
+                }
+                .btn {
+                    padding: 1.5rem 2.2rem;
+                    background: $red;
+                    color: $white;
+                    border: none;
+                    border-radius: 25px;
+                    transition: .3s;
+
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+
+                    &:hover {
+                        background: $deep_red;
+                    }
+                }
+            }
+            .stats {
+                display: flex;
+                justify-content: space-between;
+                width: 68rem;
+                margin-top: 5rem;
+                .stats-item {
+                   .count {
+                       @include ff(pl);
+                       font-size: 3.6rem;
+                       span {
+                           font-size: 3rem;
+                       }
+                   }
+                    .text {
+                        font-size: 1.4rem;
+                        padding-top: 2rem;
+                    }
+                }
+                .line {
+                    width: 0.1rem;
+                    height: 3rem;
+                    position: relative;
+                    top: 2rem;
+                    background: $deep_red;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,70 @@
+@mixin responsive {
+    @media only screen and (max-width: $responsive) {
+        @content;
+    }
+}
+
+@mixin box($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
+@mixin flex($justify: space-between, $items: center, $direction : row, $wrap : nowrap ) {
+    justify-content: $justify;
+    align-items: $items;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    display: flex;
+}
+
+@mixin ff($ff: pr) {
+    @if($ff == pr) {
+        font-family: 'ProximaNova-Regular';
+    }
+    @else if($ff == pl) {
+        font-family: 'ProximaNova-Light';
+    }
+    @else if($ff == pb) {
+        font-family: 'ProximaNova-Bold';
+    }
+    @else if($ff == psb) {
+        font-family: 'ProximaNova-Semibold';
+    }
+    @else if($ff == psbi) {
+        font-family: 'ProximaNova-SemiboldIt';
+    }
+}
+
+@mixin underline_link($color : $main, $header : false) {
+    position: relative;
+    color: $color;
+    $offset : -0.2rem;
+
+    @if($header == true) {
+        $offset : -1rem;
+    }
+
+    @include responsive{
+        $offset : -2px;
+
+        @if($header == true) {
+            $offset : -7px;
+        }
+
+        &:after {
+            height: 1px !important;
+        }
+    }
+    &:after{
+        content: '';
+        height: 1px;
+
+        position: absolute;
+        bottom: $offset;
+        left: $offset;
+        right: $offset;
+
+        background: $color;
+    }
+}
+

@@ -1,0 +1,35 @@
+section#about {
+    position: relative;
+    background: $deep_red;
+    img {
+        position: absolute;
+        right: 0;
+    }
+    .container {
+        .wrap {
+            @include ff(pl);
+            color: $white;
+            display: flex;
+            .about-content {
+                padding-bottom: 9rem;
+                .title {
+                    font-size: 4rem;
+                    padding: 12rem 0 5rem 0;
+                }
+                .text {
+                    font-size: 1.8rem;
+                    line-height: 2.6rem;
+                }
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 37rem;
+                    height: 31rem;
+                    top: 0rem;
+                    left: -19rem;
+                    background: url('/i/red-shape.png') center no-repeat;
+                }
+            }
+        }
+    }
+}
